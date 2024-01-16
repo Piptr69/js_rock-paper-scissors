@@ -11,7 +11,7 @@ function getComputerChoice()
 function playRound(playerSelection, computerSelection) {
     playerSelection = playerSelection.toLowerCase();
     playerSelection = playerSelection[0].toUpperCase() + playerSelection.slice(1);
-   
+        let whoWon;
         if( playerSelection == "Rock")
     {
         if(computerSelection == "Rock") whoWon = "TIE";
